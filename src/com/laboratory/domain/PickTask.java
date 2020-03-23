@@ -12,16 +12,12 @@ import lombok.ToString;
 @AllArgsConstructor
 @ToString
 
-public class Test {
+public class PickTask {
 
 	int id;
-	String testname;
-	String testtype;
-	String ref_dr;
-	float obs_val;
-	float req_val;
-	String observation;
-	Laboratory lab;
+	Pickup pick;
 	Patient patient;
-	int stat;
+	Test test;
+	Laboratory lab;
+	
 }
